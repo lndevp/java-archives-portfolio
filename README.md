@@ -1,4 +1,4 @@
-# Java Coursework Portfolio
+# Java Archives Portfolio
 
 Polished Java portfolio projects rebuilt from an Eclipse coursework folder. The original work covered arrays, `ArrayList`, sorting, searching, recursion, OOP, inheritance, abstract classes, interfaces, Swing GUI basics, and small game projects.
 
@@ -13,6 +13,7 @@ Polished Java portfolio projects rebuilt from an Eclipse coursework folder. The 
 | Marvel Battle | `portfolio.games.MarvelBattleGame` | Interfaces, random outcomes, clean model classes |
 | Tic Tac Toe | `portfolio.games.TicTacToeGame` | 2-player console game loop and win detection |
 | Guess Who | `portfolio.games.GuessWhoSwingGame` | Java Swing GUI, character filtering, question logic, guessing logic, generated neutral cards |
+| Sorry Game | `portfolio.games.SorryGame` | ICS4U console board game archive with cleaned turn logic, card drawing, save/load, and pawn movement |
 
 ## Run
 
@@ -32,6 +33,7 @@ java -cp out portfolio.oop.InheritanceDemo
 java -cp out portfolio.games.MarvelBattleGame
 java -cp out portfolio.games.TicTacToeGame
 java -cp out portfolio.games.GuessWhoSwingGame
+java -cp out portfolio.games.SorryGame
 ```
 
 Run smoke checks:
@@ -43,4 +45,4 @@ java -cp out portfolio.PortfolioSmokeTest
 
 ## Privacy / Asset Note
 
-The original Eclipse project included personal photos used as temporary classroom assets. They are intentionally not included in this public portfolio. The Swing Guess Who project uses generated neutral character cards instead.
+The original Eclipse project included personal photos used as temporary classroom assets. They are intentionally not included in this public portfolio. The Swing Guess Who project uses generated neutral character cards instead. The original Sorry game source is kept in `archive/sorry-game-ics4u/`, while the compileable version is integrated into `portfolio.games`.
